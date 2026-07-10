@@ -1,14 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev Conference</title>
-</head>
-<body>
-    <nav>
-        <img src="logo.png" alt="LOGO">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .navbar {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding: 0 80px;
+        background: white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      }
+      .navbar a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .navbar a:hover {
+        color: blue;
+      }
+      .logo img {
+        width: 120px;
+      }
+      .logo {
+        flex: 1;
+      }
+      .center-menu {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+      }
+      .register-btn {
+        background: blue;
+        color: white!important;
+        text-decoration: none;
+        padding: 12px 25px;
+        border-radius: 8px;
+        display: inline-block;
+      }
+      .btn {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/logo.png" alt="LOGO" />
+      </div>
+      <div class="center-menu">
         <a href="speakers.html">Speakers</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="tracks.html">Tracks</a>
+        <a href="venue.html">Venue</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="btn">
+        <a href="reg-form.html" class="register-btn">Register Now</a>
+      </div>
     </nav>
-</body>
+  </body>
 </html>
