@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container {
+        width: 450px;
+        background: white;
+        padding: 35px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px gray;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      p {
+        text-align: center;
+        margin-bottom: 25px;
+        color: gray;
+      }
+      label {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 15px;
+      }
+      textarea {
+        resize: none;
+        height: 100px;
+      }
+      .submit-btn {
+        width: 100%;
+        margin-top: 25px;
+        padding: 14px;
+        border: none;
+        background: blue;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      .submit-btn:hover {
+        background: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>DevConf 2026</h1>
+      <p>Conference Registration Form</p>
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required />
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required />
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number" required />
+        <label>Organization</label>
+        <input type="text" placeholder="Company / University" />
+        <label>Select Track</label>
+        <select required>
+          <option>AI & Machine Learning</option>
+          <option>Cloud & DevOps</option>
+          <option>Frontend Development</option>
+          <option>Cyber Security</option>
+        </select>
+        <label>Message</label>
+        <textarea placeholder="Anything you'd like us to know?"></textarea>
+        <button class="submit-btn">Register Now</button>
+      </form>
+    </div>
+  </body>
+</html>
