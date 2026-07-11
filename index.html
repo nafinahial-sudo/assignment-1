@@ -144,6 +144,73 @@
       .card p {
         color: gray;
       }
+      .pricing {
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+      }
+
+      .pricing h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        color: gray;
+        margin-bottom: 40px;
+      }
+
+      .price-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .price-card {
+        width: 300px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 25px;
+        background-color: antiquewhite;
+      }
+      .price-card hr {
+        margin: 20px 0;
+        border: none;
+        border-top: 1px solid lightgray;
+      }
+
+      .pro {
+        background-color: lightskyblue;
+      }
+
+      .price-card h3 {
+        margin-bottom: 15px;
+      }
+
+      .price-card h1 {
+        color: black;
+        margin-bottom: 20px;
+      }
+
+      .price-card ul {
+        text-align: left;
+        margin-left: 20px;
+        margin-bottom: 25px;
+      }
+
+      .price-card li {
+        margin-bottom: 10px;
+      }
+
+      .price-btn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
     </style>
   </head>
   <body>
@@ -218,6 +285,67 @@
           <h3>Mustafa Suleyman</h3>
 
           <p>CEO, Microsoft AI</p>
+        </div>
+      </div>
+    </section>
+    <section class="pricing">
+      <h2>Secure Your Spot</h2>
+
+      <p class="subtitle">Early-bird pricing ends August 15, 2026.</p>
+
+      <div class="price-container">
+        <div class="price-card">
+          <h3>Standard</h3>
+          <h1>$399</h1>
+          <p>per person</p>
+          <hr />
+
+          <ul>
+            <li>Access to all 3 conference days</li>
+            <li>48 curated technical talks</li>
+            <li>2 workshop sessions</li>
+            <li>Networking lunch & coffee breaks</li>
+            <li>Conference swag bag</li>
+            <li>Digital recordings (30 days)</li>
+          </ul>
+
+          <a href="reg-form.html" class="price-btn">Choose Plan</a>
+        </div>
+
+        <div class="price-card pro">
+          <h3>Pro</h3>
+          <h1>$799</h1>
+          <p>per person</p>
+          <hr />
+
+          <ul>
+            <li>Everything in Standard</li>
+            <li>Unlimited workshop access</li>
+            <li>Speaker meet & greet</li>
+            <li>VIP networking dinner</li>
+            <li>Lifetime recording access</li>
+            <li>1-on-1 mentorship (30 min)</li>
+          </ul>
+
+          <a href="reg-form.html" class="price-btn">Choose Plan</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Team</h3>
+          <h1>$5,999</h1>
+          <p>up to 10 people</p>
+          <hr />
+
+          <ul>
+            <li>Everything in Pro (10 seats)</li>
+            <li>Dedicated team lounge access</li>
+            <li>Private workshop booking</li>
+            <li>Company logo on event page</li>
+            <li>Recruitment booth (1 day)</li>
+            <li>Priority customer support</li>
+          </ul>
+
+          <a href="reg-form.html" class="price-btn">Choose Plan</a>
         </div>
       </div>
     </section>
