@@ -47,7 +47,7 @@
       }
       .register-btn {
         background: blue;
-        color: white!important;
+        color: white !important;
         text-decoration: none;
         padding: 12px 25px;
         border-radius: 8px;
@@ -57,6 +57,47 @@
         flex: 1;
         display: flex;
         justify-content: flex-end;
+      }
+      .hero {
+        width: 100%;
+        height: 600px;
+        background-image: url("assets/banner.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero h1 {
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        width: 700px;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+
+      .hero-btn {
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        padding: 12px 25px;
+        border-radius: 5px;
       }
     </style>
   </head>
@@ -76,5 +117,19 @@
         <a href="reg-form.html" class="register-btn">Register Now</a>
       </div>
     </nav>
+
+    <section class="hero">
+      <div class="overlay">
+        <h1>Code. <i>Connect.</i> Create.</h1>
+
+        <p>
+          Join 4,000+ engineers, founders, and builders at the premier developer
+          conference of 2026. Three days of cutting-edge talks, hands-on
+          workshops, and meaningful connections.
+        </p>
+
+        <a href="reg-form.html" class="hero-btn">Register Now</a>
+      </div>
+    </section>
   </body>
 </html>
