@@ -4,214 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev Conference</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      .navbar {
-        width: 100%;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        padding: 0 80px;
-        background: white;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-      }
-      .navbar a {
-        text-decoration: none;
-        color: black;
-        font-size: 16px;
-        font-weight: 500;
-      }
-      .navbar a:hover {
-        color: blue;
-      }
-      .logo img {
-        width: 120px;
-      }
-      .logo {
-        flex: 1;
-      }
-      .center-menu {
-        flex: 2;
-        display: flex;
-        justify-content: center;
-        gap: 35px;
-      }
-      .register-btn {
-        background: blue;
-        color: white !important;
-        text-decoration: none;
-        padding: 12px 25px;
-        border-radius: 8px;
-        display: inline-block;
-      }
-      .btn {
-        flex: 1;
-        display: flex;
-        justify-content: flex-end;
-      }
-      .hero {
-        width: 100%;
-        height: 600px;
-        background-image: url("assets/banner.jpg");
-        background-size: cover;
-        background-position: center;
-      }
-
-      .overlay {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.6);
-        color: white;
-        text-align: center;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .hero h1 {
-        font-size: 60px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-
-      .hero p {
-        width: 700px;
-        font-size: 18px;
-        line-height: 30px;
-        margin-bottom: 30px;
-      }
-
-      .hero-btn {
-        background-color: blue;
-        color: white;
-        text-decoration: none;
-        padding: 12px 25px;
-        border-radius: 5px;
-      }
-      .speakers {
-        width: 100%;
-        text-align: left;
-        margin-top: 40px;
-        margin-bottom: 40px;
-      }
-
-      .speakers h2 {
-        text-align: center;
-        font-size: 35px;
-        margin-bottom: 40px;
-      }
-
-      .speaker-container {
-        display: grid;
-        grid-template-columns: repeat(2, 320px);
-        justify-content: center;
-        gap: 30px;
-      }
-
-      .card {
-        border: 1px solid lightgray;
-        border-radius: 10px;
-        padding: 5px;
-        background-color: white;
-      }
-
-      .card img {
-        width: 100%;
-        border-radius: 5px;
-      }
-
-      .card h4 {
-        color: blue;
-        margin-top: 15px;
-        margin-bottom: 10px;
-      }
-
-      .card h3 {
-        margin-bottom: 10px;
-      }
-
-      .card p {
-        color: gray;
-      }
-      .pricing {
-        width: 100%;
-        text-align: center;
-        margin-top: 80px;
-        margin-bottom: 80px;
-      }
-
-      .pricing h2 {
-        font-size: 36px;
-        margin-bottom: 10px;
-      }
-
-      .subtitle {
-        color: gray;
-        margin-bottom: 40px;
-      }
-
-      .price-container {
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-      }
-
-      .price-card {
-        width: 300px;
-        border: 1px solid lightgray;
-        border-radius: 10px;
-        padding: 25px;
-        background-color: antiquewhite;
-      }
-      .price-card hr {
-        margin: 20px 0;
-        border: none;
-        border-top: 1px solid lightgray;
-      }
-
-      .pro {
-        background-color: lightskyblue;
-      }
-
-      .price-card h3 {
-        margin-bottom: 15px;
-      }
-
-      .price-card h1 {
-        color: black;
-        margin-bottom: 20px;
-      }
-
-      .price-card ul {
-        text-align: left;
-        margin-left: 20px;
-        margin-bottom: 25px;
-      }
-
-      .price-card li {
-        margin-bottom: 10px;
-      }
-
-      .price-btn {
-        display: inline-block;
-        text-decoration: none;
-        background-color: blue;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="Styles/style.css">
   </head>
   <body>
     <nav class="navbar">
@@ -349,5 +142,50 @@
         </div>
       </div>
     </section>
+    <!-- AI Generated Section : FAQ -->
+
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+
+      <p class="faq-subtitle">
+        Find answers to the most common questions about DevConf 2026.
+      </p>
+
+      <div class="faq-box">
+        <h3>• Who can attend DevConf 2026?</h3>
+
+        <p>
+          Anyone interested in software development, technology, or innovation
+          is welcome to attend.
+        </p>
+      </div>
+
+      <div class="faq-box">
+        <h3>• Where will the conference take place?</h3>
+
+        <p>
+          The conference will be held at the DevConf Convention Center, Dhaka.
+        </p>
+      </div>
+
+      <div class="faq-box">
+        <h3>• Will I receive a certificate?</h3>
+
+        <p>
+          Yes. Every registered participant will receive a digital participation
+          certificate.
+        </p>
+      </div>
+
+      <div class="faq-box">
+        <h3>• How can I register?</h3>
+
+        <p>
+          Click the "Register Now" button and complete the registration form.
+        </p>
+      </div>
+    </section>
+
+    <!-- End of AI Generated FAQ Section -->
   </body>
 </html>
