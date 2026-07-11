@@ -47,7 +47,7 @@
       }
       .register-btn {
         background: blue;
-        color: white!important;
+        color: white !important;
         text-decoration: none;
         padding: 12px 25px;
         border-radius: 8px;
@@ -57,6 +57,51 @@
         flex: 1;
         display: flex;
         justify-content: flex-end;
+      }
+      .speakers {
+        width: 100%;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      .speakers h2 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 40px;
+      }
+
+      .speaker-container {
+        display: grid;
+        grid-template-columns: repeat(2, 320px);
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .card {
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 5px;
+      }
+
+      .card h4 {
+        color: blue;
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+
+      .card h3 {
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        color: gray;
       }
     </style>
   </head>
@@ -76,5 +121,50 @@
         <a href="reg-form.html" class="register-btn">Register Now</a>
       </div>
     </nav>
+    <section class="speakers">
+      <h2>Meet the Speakers</h2>
+
+      <div class="speaker-container">
+        <div class="card">
+          <img src="assets/andrej.png" alt="Andrej Karpathy" />
+
+          <h4>AI/ML</h4>
+
+          <h3>Andrej Karpathy</h3>
+
+          <p>Former Director of AI, Tesla</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/demis.png" alt="Demis Hassabis" />
+
+          <h4>Cloud & DevOps</h4>
+
+          <h3>Demis Hassabis</h3>
+
+          <p>CEO, Google DeepMind</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/gary.png" alt="Gary Simon" />
+
+          <h4>Frontend</h4>
+
+          <h3>Gary Simon</h3>
+
+          <p>Founder, DesignCourse</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/mustafa.png" alt="Mustafa Suleyman" />
+
+          <h4>Security</h4>
+
+          <h3>Mustafa Suleyman</h3>
+
+          <p>CEO, Microsoft AI</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
