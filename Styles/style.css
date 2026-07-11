@@ -249,3 +249,42 @@ body {
 }
 
 /* End of AI Generated FAQ Section */
+/* Footer Section */
+
+.footer {
+  width: 100%;
+  padding: 40px 80px;background-color: slategray;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid lightgray;
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}

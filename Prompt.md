@@ -1,0 +1,1 @@
+Here is my UI and assignment instruction. Please create a simple FAQ section for the AI placeholder. It should match the design of my website and be relevant to DevConf 2026. Use only HTML5 and CSS3, keep the code beginner-friendly, and write the HTML and CSS separately.
